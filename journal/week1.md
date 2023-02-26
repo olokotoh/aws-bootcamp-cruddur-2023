@@ -3,6 +3,5 @@
 install Docker on your system, 
 
 ```
-cd backend-flask`
-
+cd backend-flask
 ```
