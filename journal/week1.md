@@ -21,7 +21,16 @@ ENV FLASK_ENV=development
 EXPOSE ${PORT}
 CMD [ "python3", "-m" , "flask", "run", "--host=0.0.0.0", "--port=4567"]
 ```
-## Containerize the FrontEnd Application
+## Containerize Frontend
+
+## Run NPM Install
+
+We have to run NPM Install before building the container since it needs to copy the contents of node_modules
+
+```
+cd frontend-react-js
+npm i
+```
 
 
 ```
@@ -40,3 +49,5 @@ RUN npm install
 EXPOSE ${PORT}
 CMD ["npm", "start"]
 ```
+## Create a docker compose file  
+Go back to  aws-bootcamp-cruddur-2023 directory
