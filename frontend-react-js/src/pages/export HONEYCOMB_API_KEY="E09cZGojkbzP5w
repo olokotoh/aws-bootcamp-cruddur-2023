@@ -1,0 +1,6 @@
+export HONEYCOMB_API_KEY="E09cZGojkbzP5wW307cqQA"
+gp env HONEYCOMB_API_KEY="E09cZGojkbzP5wW307cqQA"
+
+
+
+gp env HONEYCOMB_SERVICE_NAME="crudder"
